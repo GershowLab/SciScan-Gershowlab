@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><!-- Warning: this comment is an OME-XML metadata block, which contains crucial dimensional parameters and other important metadata. Please edit cautiously (if at all), and back up the original data before doing so. For more information, see the OME-TIFF web site: http://ome-xml.org/wiki/OmeTiff. --><OME:OME xmlns:OME="http://www.openmicroscopy.org/Schemas/OME/2015-01" xmlns:BIN="http://www.openmicroscopy.org/Schemas/BinaryFile/2015-01" xmlns:ROI="http://www.openmicroscopy.org/Schemas/ROI/2015-01" xmlns:SA="http://www.openmicroscopy.org/Schemas/SA/2015-01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2015-01                         http://www.openmicroscopy.org/Schemas/OME/2015-01/ome.xsd">
+						
+	<OME:Experiment ID="urn:lsid::Experiment:OWS345" Type="Other">
+		<OME:Description>Calcium Imaging</OME:Description>
+		<OME:ExperimenterRef ID="urn:lsid::Experimenter:1"/>
+	</OME:Experiment>
+	<OME:Experimenter Email="jane.doe@scientifica.uk.com" FirstName="Jane" ID="urn:lsid::Experimenter:1" Institution="Scientifica" LastName="Doe"/>
+	<OME:Instrument ID="Instrument:0">
+		<OME:Microscope Manufacturer="Scientifica" Model="MP1000"/>
+		<OME:LightSource ID="urn:lsid:loci.wisc.edu:LightSource:OWS1" Manufacturer="Spectral Physics" Model="MaiTai">
+			<OME:Laser LaserMedium="TiSapphire" Type="SolidState"/>
+		</OME:LightSource>
+		<OME:Detector ID="Detector:0:1" Manufacturer="Hamamatsu" Model="xxxxxx" Type="PMT"/>
+		<OME:Detector ID="Detector:0:2" Manufacturer="New Manufacturer" Model="yyyyyy" Type="PMT"/>
+		<OME:Detector ID="Detector:0:3" Manufacturer="New Manufacturer" Model="yyyyyy" Type="PMT"/>
+		<OME:Detector ID="Detector:0:4" Manufacturer="New Manufacturer" Model="yyyyyy" Type="PMT"/>
+		<OME:Objective ID="Objective:1" Immersion="Water" LensNA="0.40" Manufacturer="Olympus" Model="10x"/>
+		<OME:Objective ID="Objective:2" Immersion="Water" LensNA="0.80" Manufacturer="Nikon" Model="40x"/>
+		<OME:Objective ID="Objective:3" Immersion="Water" LensNA="0.80" Manufacturer="Nikon" Model="16x"/>
+	</OME:Instrument>		
+	<OME:Image ID="Image:0" Name="zstacks_256_1um">
+		<OME:AcquisitionDate>2015-12-11T11:44:56</OME:AcquisitionDate>
+		<OME:Pixels BigEndian="true" DimensionOrder="XYCZT" ID="Pixels:0" PhysicalSizeX="0.000003" PhysicalSizeXUnit="m" PhysicalSizeY="0.000003" PhysicalSizeYUnit="m" SignificantBits="16" SizeC="2" SizeT="1" SizeX="256" SizeY="256" SizeZ="5" Type="uint16">			
+			<OME:Channel EmissionWavelength="0.00000061" ExcitationWavelength="0.00000105" Fluor="mCherry" ID="Channel:0:1" IlluminationType="NonLinear" Name="Red" SamplesPerPixel="20">
+			<OME:DetectorSettings Gain="0.5" ID="Detector:0:1"/>
+			</OME:Channel>
+			<OME:Channel EmissionWavelength="0.00000051" ExcitationWavelength="0.00000087" Fluor="gcamp6" ID="Channel:0:2" IlluminationType="NonLinear" Name="Green" SamplesPerPixel="20">
+				<OME:DetectorSettings Gain="0.5" ID="Detector:0:2"/>
+			</OME:Channel>
+			<OME:Channel EmissionWavelength="0.00000010" ExcitationWavelength="0.00000080" Fluor="" ID="Channel:0:3" IlluminationType="NonLinear" Name="" SamplesPerPixel="20">
+				<OME:DetectorSettings Gain="0.5" ID="Detector:0:3"/>
+			</OME:Channel>
+			<OME:Channel EmissionWavelength="0.00000010" ExcitationWavelength="0.00000080" Fluor="" ID="Channel:0:4" IlluminationType="NonLinear" Name="" SamplesPerPixel="20">
+				<OME:DetectorSettings Gain="0.5" ID="Detector:0:4"/>
+			</OME:Channel>
+			<OME:MetadataOnly/>
+		</OME:Pixels>
+		<SA:AnnotationRef ID="Annotation:3"/>	
+	</OME:Image>
+	
+	<SA:StructuredAnnotations>
+		<SA:XMLAnnotation ID="Annotation:1">
+			<SA:Value>
+					<Sample Age="10" Description="C57BL/6" ID="001"/>
+			</SA:Value>
+		</SA:XMLAnnotation>
+		
+		<SA:XMLAnnotation ID="Annotation:2">
+			<SA:Value>
+				<DAQ AIRange="" AcquisitionRate="">
+					<Description>NI DAQ system...(edit this description1)</Description>
+				</DAQ>
+			</SA:Value>
+		</SA:XMLAnnotation>
+		
+		<SA:XMLAnnotation ID="Annotation:3">
+			<SA:Value>
+				<File Format="16bit raw" ID="20151211_11_44_55_zstacks_256_1um_XYT.raw" Name="20151211_11_44_55_zstacks_256_1um_XYT.raw" absPath="D:\2015_12_11\20151211_11_44_55_zstacks_256_1um\20151211_11_44_55_zstacks_256_1um_XYT.raw" relPath="\\2015_12_11\20151211_11_44_55_zstacks_256_1um\20151211_11_44_55_zstacks_256_1um_XYT.raw" rootPath="D:\"/>
+			</SA:Value>
+		</SA:XMLAnnotation>
+		
+		<SA:XMLAnnotation ID="Annotation:4">
+			<SA:Value>
+				<ImagePhysicalDimensions PhysicalSizeT="" PhysicalSizeTUnit="seconds" PhysicalSizeX="0.000820" PhysicalSizeY="0.000820" PhysicalSizeZ="" PhysicalSizeZUnit="m"/>
+			</SA:Value>
+		</SA:XMLAnnotation>
+		
+		<SA:XMLAnnotation ID="Annotation:5">
+			<SA:Value>
+				<PixelDwellTime> </PixelDwellTime>
+			</SA:Value>
+		</SA:XMLAnnotation>
+		
+		<SA:XMLAnnotation ID="Annotation:6">
+			<SA:Value>
+				<LaserPower> </LaserPower>
+			</SA:Value>			
+		</SA:XMLAnnotation>
+		
+		<SA:XMLAnnotation ID="Annotation:7">
+			<SA:Value>
+				<OME:MacroFilePath> </OME:MacroFilePath>
+			</SA:Value>			
+		</SA:XMLAnnotation>
+		
+	</SA:StructuredAnnotations>
+</OME:OME>

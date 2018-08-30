@@ -1,0 +1,13 @@
+
+AcquisitionDate: 2011-09-16T10:45:48
+Description:  OME compatible file 
+Label: 505-540
+Label: 530-565
+Label: 555-590
+Label: 580-615
+Label: 605-640
+Label: 630-665
+Label: 655-690
+Label: 680-705
+Label: 705-750
+Label: 730-765

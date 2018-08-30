@@ -1,0 +1,4 @@
+LOOP.Start(loop.iterations,5)
+2D.Frame.Scan(frame.scan.settings,'FrameScan_Setting_15.frame');
+2D.Frame.Scan(frame.scan.settings,'FrameScan_Setting_21.frame');
+LOOP.End()

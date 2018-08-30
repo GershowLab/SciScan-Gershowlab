@@ -1,0 +1,6 @@
+OME:OME	xsi:schemaLocation	
+OME:OME	OME:Image	
+OME:OME	OME:Instrument	OME:Microscope
+OME:OME	OME:Instrument	OME:Detector
+OME:OME	SA:StructuredAnnotations	
+OME:OME	OME:Instrument	OME:Objective
